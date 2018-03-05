@@ -1,0 +1,253 @@
+
+
+header{
+    position: relative;
+    top:0;
+    z-index: 1;
+    height:70px;
+    background-color:white;
+}
+
+ menu{
+    position:absolute;
+    right:60px;
+    font-size:20px;
+}
+
+  menu a{
+       text-decoration: none;
+       margin: 0 60px;
+       color: #443e7c ;
+}
+  
+   a:visited {
+    color:#ebebeb; /* колір відвідуваних силок */
+}
+  
+  
+   a:hover{
+       color:#606060;
+}
+
+.bg_header img{
+    height:549px;
+}
+
+.bg_header P {
+    position:absolute;
+    top:150px;   
+    left:550px;
+    font-size:50px;
+    font-family: 'Dancing Script', cursive;
+    color:white;
+}
+
+.aboutUs {
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    align-items:center;
+    color:#443e7c;
+    font-size:20px;
+}
+
+.aboutUs  h1{
+    font-size: 30px;
+}
+
+.aboutUs  div{
+    width: 300px;
+}
+
+.cloud{
+    background:url("cloud.png") center top /cover no-repeat;
+    height:960px;
+}
+
+.privilegii{
+    color:white;
+    text-align:center;
+    font-size:50px;
+    font-family: 'Dancing Script', cursive;
+}
+
+ .name{
+    color:#443e7c;
+    text-align:center;
+    font-size:50px;
+    font-family: 'Dancing Script', cursive;
+  
+}
+
+.cloud > div{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    padding-top:90px;
+}
+
+.cloud  p{
+    font-size:15px;
+    font-family: 'Dancing Script', cursive;
+    color:white;
+    text-align: center;
+   
+}
+
+
+div .fBg{
+    height:960px;
+}
+
+.nameContact{
+    position:relative;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    bottom:650px;
+    font-size:50px;
+    font-family: 'Dancing Script', cursive;
+    color:white;
+}
+
+.contact {
+    position:relative;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    bottom:620px;
+}
+
+.figure{
+    color:white;
+    font-size: 25px;
+    background-color: #87c66d;
+    border-radius: 20px;
+    padding: 40px;
+    width: 250px;
+}
+
+
+/*----------------------------------------------------------------------*/
+
+
+.teachers2{
+    display:flex;
+    flex-direction:column;
+}
+
+.teachers{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    margin:60px 0;
+}
+
+.siaskyi{
+    background-color: #443e7c;
+    width:350px;
+    border-radius: 20px;
+    font-size:15px;
+    font-family: 'Dancing Script', cursive;
+    color:white;
+    
+}
+.siaskyi img{
+     width: 100px;
+     border-radius: 20px 0  0 20px;
+}
+
+.siaskyi{
+    display:flex;
+    flex-direction:row;
+    align-items:flex-start;
+}
+
+.siaskyi div{
+    width:100%;
+    display: flex;
+    flex-direction:column;
+    justify-content:space-around;
+    
+}
+
+.teacheres .siaskyi .links {
+    display: flex;
+    flex-direction:row;
+    justify-content:space-around;
+}
+
+.links img{
+    width:30px;
+    height: 30px;
+}
+
+.siaskyi .links {
+    display: flex;
+    flex-direction:row;
+}
+
+
+/*---------------------------------------------------------------*/
+
+.footerBackground{
+    background:url("footerBackground.png") center top /cover no-repeat;
+    height:1000px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
+
+.contact{
+    color:white;
+    text-align:center;
+    font-size:50px;
+    font-family: 'Dancing Script', cursive;
+    color:white;
+}
+
+.qw{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+}
+
+.figure{
+    color:white;
+    font-size: 25px;
+    background-color: #87c66d;
+    border-radius: 20px;
+    padding: 40px;
+    width: 250px;
+}
+
+form{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+input[type=text] {
+    border-radius: 20px;
+    color:#443e7c;
+    padding: 10px;
+    margin: 20px;
+    width: 50%;
+}
+input[type=text]:focus {
+    background-color:  #87c66d;
+    color: white;
+    outline: none;
+}
+
+
+textarea{
+    border-radius: 20px;
+    color:#443e7c;;
+    font-size: 25px;
+    width:50%;
+    margin: 20px;
+}
+
+
+
