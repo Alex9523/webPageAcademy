@@ -95,29 +95,6 @@ header{
 }
 
 
-div .fBg{
-    height:960px;
-}
-
-.nameContact{
-    position:relative;
-    display:flex;
-    flex-direction:row;
-    justify-content:space-around;
-    bottom:650px;
-    font-size:50px;
-    font-family: 'Dancing Script', cursive;
-    color:white;
-}
-
-.contact {
-    position:relative;
-    display:flex;
-    flex-direction:row;
-    justify-content:space-around;
-    bottom:620px;
-}
-
 .figure{
     color:white;
     font-size: 25px;
@@ -190,6 +167,13 @@ div .fBg{
 
 /*---------------------------------------------------------------*/
 
+.contact{
+    color:white;
+    text-align:center;
+    font-size:50px;
+    font-family: 'Dancing Script', cursive;
+}
+
 .footerBackground{
     background:url("footerBackground.png") center top /cover no-repeat;
     height:1000px;
@@ -198,13 +182,7 @@ div .fBg{
     justify-content:center;
 }
 
-.contact{
-    color:white;
-    text-align:center;
-    font-size:50px;
-    font-family: 'Dancing Script', cursive;
-    color:white;
-}
+
 
 .qw{
     display:flex;
