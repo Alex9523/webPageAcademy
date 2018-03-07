@@ -1,197 +1,262 @@
+img {
+    max-width: 100%;
+    height: auto;
+}
 
-
-header{
+header {
     position: relative;
-    top:0;
+    top: 0;
     z-index: 1;
-    height:70px;
-    background-color:white;
+    height: 70px;
+    background-color: white;
 }
 
- menu{
-    position:absolute;
-    right:60px;
-    font-size:20px;
+menu {
+    position: absolute;
+    right: 60px;
+    font-size: 20px;
 }
 
-  menu a{
-       text-decoration: none;
-       margin: 0 60px;
-       color: #443e7c ;
-}
-  
-   a:visited {
-    color:#ebebeb; /* колір відвідуваних силок */
-}
-  
-  
-   a:hover{
-       color:#606060;
+menu a {
+    text-decoration: none;
+    margin: 0 60px;
+    color: #443e7c;
 }
 
-.bg_header img{
-    height:549px;
+
+
+a:hover {
+    color: #ebebeb;
+}
+
+.bg_header img {
+    width: 100%;
+    height: 549px;
 }
 
 .bg_header P {
-    position:absolute;
-    top:150px;   
-    left:550px;
-    font-size:50px;
+    position: absolute;
+    top: 150px;
+    left: 550px;
+    font-size: 50px;
     font-family: 'Dancing Script', cursive;
-    color:white;
+    color: white;
 }
+
+
 
 .aboutUs {
-    display:flex;
-    flex-direction:row;
-    justify-content:space-around;
-    align-items:center;
-    color:#443e7c;
-    font-size:20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: #443e7c;
+    font-size: 20px;
 }
 
-.aboutUs  h1{
+
+.aboutUs h1 {
     font-size: 30px;
 }
 
-.aboutUs  div{
+.aboutUs div {
     width: 300px;
 }
 
-.cloud{
-    background:url("cloud.png") center top /cover no-repeat;
-    height:960px;
+
+@media screen and (max-width:700px) {
+    .bg_header P {
+    position: absolute;
+    top: 150px;
+    left: 50px;
+}
+    
+    .aboutUs {
+        display: flex;
+        flex-direction: column;
+        color: #443e7c;
+        font-size: 30px;
+    }
+    .aboutUs h1 {
+        font-size: 60px;
+    }
 }
 
-.privilegii{
-    color:white;
-    text-align:center;
-    font-size:50px;
-    font-family: 'Dancing Script', cursive;
+.cloud {
+    background: url("cloud.png") center top /cover no-repeat;
+    height: 960px;
 }
 
- .name{
-    color:#443e7c;
-    text-align:center;
-    font-size:50px;
-    font-family: 'Dancing Script', cursive;
-  
-}
-
-.cloud > div{
-    display:flex;
-    flex-direction:row;
-    justify-content:space-around;
-    padding-top:90px;
-}
-
-.cloud  p{
-    font-size:15px;
-    font-family: 'Dancing Script', cursive;
-    color:white;
+.proposition {
+    color: white;
     text-align: center;
-   
+    font-size: 50px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.name {
+    color: #443e7c;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Dancing Script', cursive;
+
 }
 
 
-.figure{
-    color:white;
-    font-size: 25px;
-    background-color: #87c66d;
-    border-radius: 20px;
-    padding: 40px;
-    width: 250px;
+.cloud>div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 90px;
 }
+
+.cloud p {
+    font-size: 15px;
+    font-family: 'Dancing Script', cursive;
+    color: white;
+    text-align: center;
+}
+
+.column div {
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width:700px) {
+    .cloud>div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 90px;
+    }
+
+    .cloud {
+        height: 2000px;
+    }
+
+    .column {
+        display: flex;
+        justify-content: space-around;
+        align-content: center;
+    }
+
+    .cloud p {
+        font-size: 25px;
+        font-family: 'Dancing Script', cursive;
+        color: white;
+        text-align: center;
+    }
+}
+
 
 
 /*----------------------------------------------------------------------*/
 
-
-.teachers2{
-    display:flex;
-    flex-direction:column;
+.teachers2 {
+    display: flex;
+    flex-direction: column;
 }
 
-.teachers{
-    display:flex;
-    flex-direction:row;
-    justify-content:space-around;
-    margin:60px 0;
+
+
+.teachers {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 60px 0;
 }
 
-.siaskyi{
+.anketa {
     background-color: #443e7c;
-    width:350px;
+    width: 350px;
     border-radius: 20px;
-    font-size:15px;
+    font-size: 15px;
     font-family: 'Dancing Script', cursive;
-    color:white;
-    
-}
-.siaskyi img{
-     width: 100px;
-     border-radius: 20px 0  0 20px;
-}
-
-.siaskyi{
-    display:flex;
-    flex-direction:row;
-    align-items:flex-start;
-}
-
-.siaskyi div{
-    width:100%;
+    color: white;
     display: flex;
-    flex-direction:column;
-    justify-content:space-around;
-    
+    flex-direction: row;
+    align-items: flex-start;
+
 }
 
-.teacheres .siaskyi .links {
+.anketa > img {
+    width: 100px;
+    border-radius: 20px 0 0 20px;
+}
+
+/*.anketa {*/
+/*    display: flex;*/
+/*    flex-direction: row;*/
+/*    align-items: flex-start;*/
+/*}*/
+
+.anketa div {
+    width: 100%;
     display: flex;
-    flex-direction:row;
-    justify-content:space-around;
+    flex-direction: column;
+    justify-content: space-around;
+
 }
 
-.links img{
-    width:30px;
+.links img {
+    width: 30px;
     height: 30px;
 }
 
-.siaskyi .links {
+.anketa .links {
     display: flex;
-    flex-direction:row;
+    flex-direction: row;
+}
+
+@media screen and (max-width: 700px) {
+    .teachers {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 20px 0;
+    }
+
+    .anketa {
+    width:250px;
+    display: flex;
+    flex-direction: column;
+    margin:40px 0;
+}
+
+    .anketa > img{
+        width: 250px;
+        border-radius: 20px 20px 0 0 ;
+    }
 }
 
 
 /*---------------------------------------------------------------*/
 
-.contact{
-    color:white;
-    text-align:center;
-    font-size:50px;
+.contact {
+
+    color: white;
+    text-align: center;
+    font-size: 50px;
     font-family: 'Dancing Script', cursive;
 }
 
-.footerBackground{
-    background:url("footerBackground.png") center top /cover no-repeat;
-    height:1000px;
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
+.footerBackground {
+    background: url("footerBackground.png") center top /cover no-repeat;
+    height: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 
-
-.qw{
-    display:flex;
-    flex-direction:row;
-    justify-content:space-around;
+.qw {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
-.figure{
-    color:white;
+.figure {
+    color: white;
     font-size: 25px;
     background-color: #87c66d;
     border-radius: 20px;
@@ -199,33 +264,69 @@ header{
     width: 250px;
 }
 
-form{
-    display:flex;
-    flex-direction:column;
-    align-items:center;
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 input[type=text] {
     border-radius: 20px;
-    color:#443e7c;
+    color: #443e7c;
     padding: 10px;
     margin: 20px;
     width: 50%;
 }
-input[type=text]:focus {
-    background-color:  #87c66d;
+
+input[type=number] {
+    border-radius: 20px;
+    color: #443e7c;
+    padding: 10px;
+    margin: 20px;
+    width: 50%;
+}
+
+input[type=text]:focus , input[type=number]:focus {
+    background-color: #87c66d;
     color: white;
     outline: none;
 }
 
 
-textarea{
+
+textarea {
     border-radius: 20px;
-    color:#443e7c;;
+    color: #443e7c;
+    ;
     font-size: 25px;
-    width:50%;
+    width: 50%;
     margin: 20px;
 }
 
+input[type=submit] {
+    background-color: rgb(253, 116, 0);
+    color: white;
+    border-radius: 20px;
+    width: 200px;
+    height: 50px;
+}
 
+@media screen and (max-width: 700px) {
+    .form {
+        margin-top: 40px;
+    }
 
+    .qw {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .qw>div {
+        margin: 20px 0;
+    }
+
+    .contact {
+        margin-top: 200px;
+    }
+}

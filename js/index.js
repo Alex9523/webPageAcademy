@@ -1,4 +1,3 @@
-document.getElementById("a").innerHTML="aargagr";
 
 
  function changeImg(source){
