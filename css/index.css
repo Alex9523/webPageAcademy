@@ -5,9 +5,8 @@ img {
 
 header {
     position: relative;
-    top: 0;
     z-index: 1;
-    height: 70px;
+    height: 90px;
     background-color: white;
 }
 
@@ -15,6 +14,8 @@ menu {
     position: absolute;
     right: 60px;
     font-size: 20px;
+    display: flex;
+    justify-content: space-around;
 }
 
 menu a {
@@ -29,12 +30,12 @@ a:hover {
     color: #ebebeb;
 }
 
-.bg_header img {
+.bgHeader img {
     width: 100%;
     height: 549px;
 }
 
-.bg_header P {
+.bgHeader P {
     position: absolute;
     top: 150px;
     left: 550px;
@@ -64,13 +65,13 @@ a:hover {
 }
 
 
-@media screen and (max-width:700px) {
-    .bg_header P {
-    position: absolute;
-    top: 150px;
-    left: 50px;
-}
-    
+@media screen and (max-width:750px) {
+    .bgHeader P {
+        position: absolute;
+        top: 150px;
+        left: 50px;
+    }
+
     .aboutUs {
         display: flex;
         flex-direction: column;
@@ -80,6 +81,16 @@ a:hover {
     .aboutUs h1 {
         font-size: 60px;
     }
+
+    menu a {
+        display: none;
+    }
+
+    menu img {
+        display: block;
+        margin: 0 auto;
+    }
+
 }
 
 .cloud {
@@ -122,7 +133,7 @@ a:hover {
     flex-direction: column;
 }
 
-@media screen and (max-width:700px) {
+@media screen and (max-width:750px) {
     .cloud>div {
         display: flex;
         flex-direction: column;
@@ -179,16 +190,11 @@ a:hover {
 
 }
 
-.anketa > img {
+.anketa>img {
     width: 100px;
     border-radius: 20px 0 0 20px;
 }
 
-/*.anketa {*/
-/*    display: flex;*/
-/*    flex-direction: row;*/
-/*    align-items: flex-start;*/
-/*}*/
 
 .anketa div {
     width: 100%;
@@ -208,7 +214,7 @@ a:hover {
     flex-direction: row;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 750px) {
     .teachers {
         display: flex;
         flex-direction: column;
@@ -217,15 +223,15 @@ a:hover {
     }
 
     .anketa {
-    width:250px;
-    display: flex;
-    flex-direction: column;
-    margin:40px 0;
-}
-
-    .anketa > img{
         width: 250px;
-        border-radius: 20px 20px 0 0 ;
+        display: flex;
+        flex-direction: column;
+        margin: 40px 0;
+    }
+
+    .anketa>img {
+        width: 250px;
+        border-radius: 20px 20px 0 0;
     }
 }
 
@@ -287,7 +293,8 @@ input[type=number] {
     width: 50%;
 }
 
-input[type=text]:focus , input[type=number]:focus {
+input[type=text]:focus,
+input[type=number]:focus {
     background-color: #87c66d;
     color: white;
     outline: none;
@@ -312,7 +319,7 @@ input[type=submit] {
     height: 50px;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 750px) {
     .form {
         margin-top: 40px;
     }
