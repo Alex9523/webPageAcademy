@@ -7,28 +7,32 @@ header {
     position: relative;
     z-index: 1;
     height: 90px;
-    background-color: white;
-}
-
-menu {
-    position: absolute;
-    right: 60px;
-    font-size: 20px;
-    display: flex;
-    justify-content: space-around;
-}
-
-menu a {
-    text-decoration: none;
-    margin: 0 60px;
-    color: #443e7c;
 }
 
 
-
-a:hover {
-    color: #ebebeb;
+.bg-light{
+     background-color: white;
 }
+
+/*menu {*/
+/*    position: absolute;*/
+/*    right: 60px;*/
+/*    font-size: 20px;*/
+/*    display: flex;*/
+/*    justify-content: space-around;*/
+/*}*/
+
+/*menu a {*/
+/*    text-decoration: none;*/
+/*    margin: 0 60px;*/
+/*    color: #443e7c;*/
+/*}*/
+
+
+
+/*a:hover {*/
+/*    color: #ebebeb;*/
+/*}*/
 
 .bgHeader img {
     width: 100%;
@@ -63,6 +67,16 @@ a:hover {
 .aboutUs div {
     width: 300px;
 }
+
+.aboutUs button{
+    border-radius: 20px;
+    background-color: rgb(253, 116, 0);
+    color: white;
+}
+.aboutUs button:hover {
+background-color: #443e7c;
+}
+
 
 
 @media screen and (max-width:750px) {
@@ -110,15 +124,24 @@ a:hover {
     text-align: center;
     font-size: 50px;
     font-family: 'Dancing Script', cursive;
-
 }
 
+.column img{
+    width: 100px;
+    display: block;
+    margin: 0 auto; 
+}
 
 .cloud>div {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     padding-top: 90px;
+}
+
+
+.column > div{
+    width:300px;
 }
 
 .cloud p {
@@ -128,10 +151,9 @@ a:hover {
     text-align: center;
 }
 
-.column div {
-    display: flex;
-    flex-direction: column;
-}
+
+
+
 
 @media screen and (max-width:750px) {
     .cloud>div {
@@ -179,9 +201,9 @@ a:hover {
 
 .anketa {
     background-color: #443e7c;
-    width: 350px;
+    width: 500px;
     border-radius: 20px;
-    font-size: 15px;
+    font-size: 25px;
     font-family: 'Dancing Script', cursive;
     color: white;
     display: flex;
@@ -191,7 +213,7 @@ a:hover {
 }
 
 .anketa>img {
-    width: 100px;
+    width: 150px;
     border-radius: 20px 0 0 20px;
 }
 
@@ -237,9 +259,48 @@ a:hover {
 
 
 /*---------------------------------------------------------------*/
+.cloudCarousel {
+    background: url("cloudCarousel.jpg") center top /cover no-repeat;
+    height: 760px;
+}
+
+.carousel {
+  width: 100%;
+  height: 100%;
+  max-height: 370px;
+  max-width: 560px;
+  margin:0 auto;
+  top:50px;
+}
+
+/*------------------------------------------------------------------*/
+
+.timer{
+    height: 500px;
+    background-color: #87c66d ;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+}
+
+
+#day , #hour , #minute , #second{
+    width: 100px;
+    height: 100px;
+    background-color:  rgb(253,116,0);
+    border-radius: 50%;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Dancing Script', cursive;
+    margin: 30px;
+}
+
+
+
+/*------------------------------------------------------------------*/
 
 .contact {
-
     color: white;
     text-align: center;
     font-size: 50px;
@@ -248,7 +309,7 @@ a:hover {
 
 .footerBackground {
     background: url("footerBackground.png") center top /cover no-repeat;
-    height: 1200px;
+    height: 800px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -276,6 +337,8 @@ form {
     flex-direction: column;
     align-items: center;
 }
+
+
 
 input[type=text] {
     border-radius: 20px;
@@ -318,6 +381,8 @@ input[type=submit] {
     width: 200px;
     height: 50px;
 }
+
+
 
 @media screen and (max-width: 750px) {
     .form {
