@@ -1,8 +1,8 @@
 function myClock() {
  let siteTime = new Date();
- let today = 11 - siteTime.getDate();
- let hour = 16 - siteTime.getHours();
- let minute = 4 - siteTime.getMinutes();
+ let today = 20 - siteTime.getDate();
+ let hour = 24 - siteTime.getHours();
+ let minute = 60 - siteTime.getMinutes();
  let second = 60 - siteTime.getSeconds();
 
  if (chack(today, hour, minute, second)) {
