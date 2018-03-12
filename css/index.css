@@ -26,11 +26,9 @@ main {
     font-family: 'Dancing Script', cursive;
 }
 
-
 .bg-light {
     background-color: white;
 }
-
 
 .aboutUs {
     display: flex;
@@ -40,7 +38,6 @@ main {
     color: #443e7c;
     font-size: 20px;
 }
-
 
 .aboutUs div {
     width: 300px;
@@ -57,10 +54,7 @@ main {
     background-color: #443e7c;
 }
 
-
-
 @media screen and (max-width:750px) {
-
     .aboutUs {
         display: flex;
         flex-direction: column;
@@ -80,7 +74,6 @@ main {
         display: block;
         margin: 0 auto;
     }
-
 }
 
 .cloud {
@@ -116,7 +109,6 @@ main {
     justify-content: space-around;
 }
 
-
 .column>div {
     width: 300px;
 }
@@ -128,7 +120,6 @@ main {
     text-align: center;
     background-color: #443e7c;
 }
-
 
 @media screen and (max-width:750px) {
     .proposition {
@@ -157,16 +148,12 @@ main {
     }
 }
 
-
-
 /*----------------------------------------------------------------------*/
 
 .teachers2 {
     display: flex;
     flex-direction: column;
 }
-
-
 
 .teachers {
     display: flex;
@@ -185,7 +172,6 @@ main {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-
 }
 
 .anketa>img {
@@ -193,13 +179,11 @@ main {
     border-radius: 20px 0 0 20px;
 }
 
-
 .anketa div {
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-
 }
 
 .links img {
@@ -232,7 +216,6 @@ main {
         border-radius: 20px 20px 0 0;
     }
 }
-
 
 /*---------------------------------------------------------------*/
 
@@ -271,7 +254,6 @@ main {
     justify-content: center;
     background-color: #87c66d;
 }
-
 
 #day,
 #hour,
@@ -321,7 +303,6 @@ main {
     justify-content: center;
 }
 
-
 .qw {
     display: flex;
     flex-direction: row;
@@ -337,14 +318,11 @@ main {
     width: 350px;
 }
 
-
 form {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-
-
 
 input[type=text] {
     border-radius: 20px;
@@ -369,7 +347,6 @@ input[type=number]:focus {
     outline: none;
 }
 
-
 textarea {
     border-radius: 20px;
     color: #443e7c;
@@ -385,8 +362,6 @@ input[type=submit] {
     width: 200px;
     height: 50px;
 }
-
-
 
 @media screen and (max-width: 750px) {
     .footerBackground {
