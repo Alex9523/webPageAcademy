@@ -281,14 +281,14 @@ main {
     #hour,
     #minute,
     #second {
-        width: 90px;
-        height: 90px;
-        font-size: 23px;
+        width: 80px;
+        height: 80px;
+        font-size: 15px;
         margin: 5px;
     }
 
     .beckgroundTimer>p {
-        font-size: 10px;
+        font-size: 20px;
     }
 }
 
