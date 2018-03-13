@@ -18,10 +18,10 @@ function myClock() {
   if (hour < 10) hour = "0" + hour;
   if (minute < 10) minute = "0" + minute;
   if (second < 10) second = "0" + second;
-  document.getElementById("day").innerHTML = today + "<br>Day";
-  document.getElementById("hour").innerHTML = hour + "<br>Hour";
-  document.getElementById("minute").innerHTML = minute + "<br>Minute";
-  document.getElementById("second").innerHTML = second + "<br>Second";
+  document.getElementById("day").innerHTML = today + "<br>Днів";
+  document.getElementById("hour").innerHTML = hour + "<br>Годин";
+  document.getElementById("minute").innerHTML = minute + "<br>Хвилин";
+  document.getElementById("second").innerHTML = second + "<br>Секунд";
  }
 
 }

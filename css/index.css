@@ -59,11 +59,10 @@ main {
         display: flex;
         flex-direction: column;
         color: #443e7c;
-        font-size: 30px;
     }
 
     .aboutUs p {
-        font-size: 30px;
+        font-size: 20px;
     }
 
     menu a {
@@ -76,7 +75,7 @@ main {
     }
 }
 
-.cloud {
+.cloudOfProposition {
     background: url("cloud.png") center top /cover no-repeat;
     height: 960px;
 }
@@ -103,7 +102,7 @@ main {
     padding-top: 50px;
 }
 
-.cloud>div {
+.cloudOfProposition>div {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -113,7 +112,7 @@ main {
     width: 300px;
 }
 
-.cloud p {
+.cloudOfProposition p {
     font-size: 15px;
     font-family: 'Dancing Script', cursive;
     color: white;
@@ -122,26 +121,31 @@ main {
 }
 
 @media screen and (max-width:750px) {
+    .name{
+        font-size: 30px;
+    }
+    
     .proposition {
         padding-top: 260px;
+        font-size: 30px;
     }
 
-    .cloud>div {
+    .cloudOfProposition>div {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
 
-    .cloud {
-        height: 2850px;
+    .cloudOfProposition {
+        height: 2300px;
     }
 
     .column {
         display: flex;
     }
 
-    .cloud p {
-        font-size: 25px;
+    .cloudOfProposition p {
+        font-size: 15px;
         font-family: 'Dancing Script', cursive;
         color: white;
         text-align: center;
@@ -175,7 +179,7 @@ main {
 }
 
 .anketa>img {
-    width: 150px;
+    height: 250px;
     border-radius: 20px 0 0 20px;
 }
 
@@ -205,6 +209,7 @@ main {
     }
 
     .anketa {
+        font-size: 15px;
         width: 250px;
         display: flex;
         flex-direction: column;
@@ -230,7 +235,7 @@ main {
     max-height: 370px;
     max-width: 560px;
     margin: 0 auto;
-    top: 50px;
+    top: 70px;
 }
 
 /*------------------------------------------------------------------*/
@@ -246,6 +251,7 @@ main {
     text-align: center;
     font-size: 30px;
     font-family: 'Dancing Script', cursive;
+    margin-bottom: 0;
 }
 
 .timer {
@@ -259,8 +265,8 @@ main {
 #hour,
 #minute,
 #second {
-    width: 150px;
-    height: 150px;
+    width: 160px;
+    height: 160px;
     background-color: rgb(253, 116, 0);
     border-radius: 50%;
     color: white;
@@ -282,7 +288,7 @@ main {
     }
 
     .beckgroundTimer>p {
-        font-size: 30px;
+        font-size: 20px;
     }
 }
 
@@ -316,6 +322,7 @@ main {
     border-radius: 20px;
     padding: 40px;
     width: 350px;
+   
 }
 
 form {
@@ -324,15 +331,9 @@ form {
     align-items: center;
 }
 
-input[type=text] {
-    border-radius: 20px;
-    color: #443e7c;
-    padding: 10px;
-    margin: 20px;
-    width: 50%;
-}
-
-input[type=number] {
+input[type=number],
+input[type=text],
+textarea{
     border-radius: 20px;
     color: #443e7c;
     padding: 10px;
@@ -341,25 +342,19 @@ input[type=number] {
 }
 
 input[type=text]:focus,
-input[type=number]:focus {
+input[type=number]:focus,
+textarea:focus{
     background-color: #87c66d;
     color: white;
     outline: none;
 }
 
-textarea {
-    border-radius: 20px;
-    color: #443e7c;
-    font-size: 25px;
-    width: 50%;
-    margin: 20px;
-}
 
 input[type=submit] {
     background-color: rgb(253, 116, 0);
     color: white;
     border-radius: 20px;
-    width: 200px;
+    width: 220px;
     height: 50px;
 }
 
@@ -369,7 +364,7 @@ input[type=submit] {
     }
 
     .form {
-        margin-top: 100px;
+        margin-top: 20px;
     }
 
     .qw {
@@ -383,5 +378,6 @@ input[type=submit] {
 
     .contact {
         margin-top: 50px;
+        font-size: 30px;
     }
 }
